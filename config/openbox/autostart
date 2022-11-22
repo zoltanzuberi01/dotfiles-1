@@ -1,0 +1,5 @@
+numlockx &
+nitrogen --restore &
+# xwinwrap -ni -fs -un -nf -b -ovr -- gifview -w WID /home/tihon/wallpapers/rainy-train.gif -a &
+tint2 &
+picom &
