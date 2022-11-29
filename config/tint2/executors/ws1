@@ -1,0 +1,10 @@
+#!/bin/sh
+
+eval $(xprop -root -notype _NET_CURRENT_DESKTOP | sed 's, ,,g')
+
+if [ "$_NET_CURRENT_DESKTOP" == 1 ]
+	then
+		printf "%s\n" 
+	else
+		printf "%s\n" 
+	fi
