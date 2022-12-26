@@ -45,8 +45,8 @@ fi
 
 exec openbox-session
 
-###########
-#AwesomeWM#
-###########
+#############
+# AwesomeWM #
+#############
 
 #exec awesome
