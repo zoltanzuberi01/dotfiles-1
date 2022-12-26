@@ -1,0 +1,98 @@
+configuration {
+	show-icons: false;
+}
+
+@import "config.rasi"
+
+window {
+ 	width: 384px;
+	border-radius: 22;
+}
+
+mainbox {
+	children: [prompt, listview];
+	padding: 10;
+}
+
+prompt {
+	font: "Iosevka 12";
+	background-color: @bg1;
+	text-color: @fg;
+	enabled: true;
+	border-radius: 13;
+	padding: 8;
+	margin: 0 0 10 0;
+}
+
+listview {
+	enabled: true;
+	columns: 3;
+	lines: 1;
+	cycle: true;
+	dynamic: true;
+	scrollbar: false;
+	layout: vertical;
+	reverse: false;
+	fixed-height: true;
+	fixed-columns: true;
+    
+	spacing: 15;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+}
+
+
+element {
+	background-color: rgba(0,0,0,0);
+	padding: 5;
+	border-radius: 15;
+}
+
+element-text {
+	font: "Iosevka 30";
+	background-color: inherit;
+	text-color: inherit;
+	expand: false;
+	horizontal-align: 0;
+	vertical-align: 0.5;
+	margin: 25 0 25 30;
+}
+
+element.normal.normal {
+	background-color: @bg;
+	text-color: @fg;
+}
+element.normal.urgent {
+	background-color: @bg-alt;
+	text-color: @bg;
+}
+element.normal.active {
+	background-color: @bg-alt;
+	text-color: @bg;
+}
+element.selected.normal {
+	background-color: @bg-alt;
+	text-color: @bg;
+}
+element.selected.urgent {
+	background-color: @bg;
+	text-color: @fg;
+}
+element.selected.active {
+	background-color: @bg;
+	text-color: @fg;
+}
+element.alternate.normal {
+	background-color: @bg;
+	text-color: @fg;
+}
+element.alternate.urgent {
+	background-color: @bg;
+	text-color: @fg;
+}
+element.alternate.active {
+	background-color: @bg;
+	text-color: @fg;
+}
