@@ -12,4 +12,14 @@
 
 ![screen1](https://github.com/Myagko/dotfiles/blob/main/example/1.png)
 
+![screen2](https://github.com/Myagko/dotfiles/blob/main/example/2.png)
+
+rofi menus:
+
+![screen3](https://github.com/Myagko/dotfiles/blob/main/example/3.png) ![screen4](https://github.com/Myagko/dotfiles/blob/main/example/4.png)
+
+neofetch:
+
+![screen6](https://github.com/Myagko/dotfiles/blob/main/example/6.png)
+
 dependencies: openbox alacritty picom tint2 rofi thunar nitrogen eom okular gnome-mplayer mousepad scrot neofetch htop cava
