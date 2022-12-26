@@ -1,2 +1,2 @@
-# dotfiles
-my arch config
+# Dotfiles
+# Openbox
