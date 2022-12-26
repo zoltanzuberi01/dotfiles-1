@@ -9,6 +9,3 @@
 - Fonts: [Iosevka](https://github.com/be5invis/Iosevka), [Feather](https://github.com/feathericons/feather#feather) (icons) & custom icon-font addon
 
 dependencies: openbox alacritty picom tint2 rofi thunar nitrogen eom okular gnome-mplayer mousepad neofetch htop cava
-
-instalation: clone [this](https://github.com/Myagko/dotfiles/tree/main/openbox/Gruvbox) to your home directory and unzip theme and icons zips
-
