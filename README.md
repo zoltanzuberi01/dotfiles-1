@@ -1,2 +1,2 @@
 # Dotfiles
-# Openbox
+# [Openbox](https://github.com/Myagko/dotfiles/tree/main/openbox/Gruvbox)
