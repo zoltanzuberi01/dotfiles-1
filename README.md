@@ -10,4 +10,6 @@
 
 - Also: tile windows with Mod + arrows (you can find out more about this in ob menu)
 
+![screen1](https://github.com/Myagko/dotfiles/blob/main/example/1.png)
+
 dependencies: openbox alacritty picom tint2 rofi thunar nitrogen eom okular gnome-mplayer mousepad scrot neofetch htop cava
