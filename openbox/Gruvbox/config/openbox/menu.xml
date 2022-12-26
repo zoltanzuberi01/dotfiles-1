@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<openbox_menu xmlns="http://openbox.org/"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://openbox.org/
+                file:///usr/share/openbox/menu.xsd">
+
+<menu id="root-menu" label="Openbox 3">
+
+ 
+    <separator label="Menu" />
+
+<menu id="apps-Mult-menu" label="Keybindings">
+
+    <separator label="Mod+Mouse(l/r)" />
+
+        <item label="drag/resize window">
+            <action name="Execute">
+            </action>
+        </item>
+
+    <separator label="Mod+w" />
+
+        <item label="open terminal">
+            <action name="Execute">
+            </action>
+        </item>
+
+    <separator label="Mod+d" />
+
+        <item label="open app launcher">
+            <action name="Execute">
+            </action>
+        </item>
+
+    <separator label="Mod+q" />
+
+        <item label="open powermenu">
+            <action name="Execute">
+            </action>
+        </item>
+
+
+    <separator label="Mod+z" />
+
+        <item label="close window">
+            <action name="Execute">
+            </action>
+        </item>
+
+    <separator label="Mod+x" />
+
+        <item label="iconify window">
+            <action name="Execute">
+            </action>
+        </item>
+
+    <separator label="Mod+c" />
+
+        <item label="maximaze window">
+            <action name="Execute">
+            </action>
+        </item>
+
+<separator label="Mod+v" />
+
+        <item label="move window to center">
+            <action name="Execute">
+            </action>
+        </item>
+
+    <separator label="Mod+n" />
+
+        <item label="toggle decoration">
+            <action name="Execute">
+            </action>
+        </item>     
+
+   <separator label="Mod+Space" />
+
+        <item label="open window menu">
+            <action name="Execute">
+            </action>
+        </item>
+
+   <separator label="Mod+(1-5)" />
+
+        <item label="go to workspace">
+            <action name="Execute">
+            </action>
+        </item>
+
+   <separator label="Mod+(arrow)" />
+
+        <item label="1/2 tile window">
+            <action name="Execute">
+            </action>
+        </item>
+
+   <separator label="Mod+Alt+(arrow)" />
+
+        <item label="1/4 tile window">
+            <action name="Execute">
+            </action>
+        </item>
+
+   <separator label="Mod+Tab" />
+
+        <item label="switch to window">
+            <action name="Execute">
+            </action>
+        </item>
+
+     </menu>
+
+            <item label="Launch apps">
+            <action name="Execute">
+                <command>rofi -show drun</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>Code</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+
+            <item label="Terminal">
+            <action name="Execute">
+                <command>alacritty</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>Code</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+
+            <item label="File manager">
+            <action name="Execute">
+                <command>thunar</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>Code</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+
+            <item label="Web browser">
+            <action name="Execute">
+                <command>google-chrome-stable</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>Code</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+
+            <item label="Reconfigure OpenBox">
+            <action name="Execute">
+                <command>openbox --reconfigure</command>
+            </action>
+        </item>
+
+
+
+
+
+
+  <separator />
+
+            <item label="Power menu">
+            <action name="Execute">
+                <command>~/.config/rofi/powermenu</command>
+                <startupnotify>
+                    <enabled>yes</enabled>
+                    <wmclass>Code</wmclass>
+                </startupnotify>
+            </action>
+        </item>
+
+</openbox_menu>
