@@ -1,5 +1,5 @@
 # Dotfiles
-# [Openbox]()
+# [Openbox](https://github.com/Myagko/dotfiles/tree/main/Openbox/Nord)
 - Compositor: picom
 - Panel: tint2
 - App launcher: rofi
