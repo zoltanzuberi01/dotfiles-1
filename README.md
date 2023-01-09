@@ -17,9 +17,9 @@
 | Super + z | Close window |
 | Super + x | Toggle iconify |
 | Super + c | Toggle maximize |
-| Super + Space | Show window menu |
 | Super + n | Toggle decorate current window |
 | Super + v | Move window to center |
+| Super + Space | Show window menu |
 | Alt + Tab | Move to next window |
 | Super + Up | Tile window to upper half |
 | Super + Down | Tile window to bottom half |
@@ -29,3 +29,9 @@
 | Super + Alt + Up | Tile window 1/4 to top left |
 | Super + Alt + Down | Tile window 1/4 to bottom right |
 | Super + Alt + left | Tile window 1/4 to bottom left |
+| Super + w | Open terminal |
+| Super + d | Open rofi app launcher |
+| Super + q | Open rofi powermenu |
+| Super + Print | Open rofi screenshot menu |
+| Print | Scrot screenshot |
+| Shift + Print | Scrot screenshot select |
