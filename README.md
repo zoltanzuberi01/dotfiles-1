@@ -8,6 +8,7 @@
 - Cursors: [Ascetic](https://github.com/Myagko/Ascetic-cursors)
 - Icons: custom [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) icons made with [papirus folder icon creator](https://github.com/Adapta-Projects/Papirus-Folder-Icon-Creator)
 - Fonts: [Iosevka](https://github.com/be5invis/Iosevka), [Feather](https://github.com/feathericons/feather#feather) (icons) & custom icon-font addon
+- Screenshoter: Scrot
 
 ![screen1](https://github.com/Myagko/dotfiles/blob/main/preview/22e71924-c3fc-4ac5-9a3d-1a5ac7a69902.png)
 
