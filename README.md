@@ -11,7 +11,7 @@
 
 ![screen1](https://github.com/Myagko/dotfiles/blob/main/example/1.png)
 
-### Openbox Keybind
+### Keybinds
 | Key | Action |
 | --- | --- |
 | Super + z | Close window |
