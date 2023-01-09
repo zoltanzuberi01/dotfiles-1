@@ -1,5 +1,5 @@
 # Dotfiles
-# [Openbox](https://github.com/Myagko/dotfiles/tree/main/openbox/Gruvbox)
+# [Openbox]()
 - Compositor: picom
 - Panel: tint2
 - App launcher: rofi
