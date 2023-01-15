@@ -20,4 +20,4 @@ do
     . $f
 done
 
-neofetch --ascii /home/tihon/.config/neofetch/logo-ascii
+neofetch --ascii ~/.config/neofetch/logo-ascii
