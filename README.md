@@ -38,14 +38,14 @@
 <details>
   <summary>Click for detail</summary>
 
-It is assumed that you have already installed basic packages such as xorg, xinit etc.
+>**It is assumed that you have already installed basic packages such as xorg, xinit etc.**
 
 ```bash
 sudo pacman -S openbox alacritty tint2 rofi picom nitrogen scrot nemo nemo-fileroller eom mpv okular htop
 ```
->**Optional**
-```bash
-pikaur -S cava cmatrix pipes
-```
+>**(AUR) Optional, aka terminal goodies for some swag**
 
+```bash
+pikaur -S cava cmatrix pipes neofetch
+```
 </details>
