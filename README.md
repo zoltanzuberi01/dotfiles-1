@@ -4,7 +4,7 @@
 - Panel: tint2
 - App launcher: rofi
 - Terminal: alacritty
-- Gtk2/3 & cursors theme: [custom]()
+- Gtk2/3 & cursors theme: custom
 - Icons: custom [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) icons made with [papirus folder icon creator](https://github.com/Adapta-Projects/Papirus-Folder-Icon-Creator)
 - Fonts: [Iosevka](https://github.com/be5invis/Iosevka), [Feather](https://github.com/feathericons/feather#feather) (icons) & custom icon-font addon
 - Screenshoter: Scrot
@@ -32,4 +32,11 @@
 | Print | Scrot screenshot |
 | Shift + Print | Scrot screenshot select |
   
+</details>
+
+###Dependencies
+<details>
+  <summary>Click for detail</summary>
+```bash
+ sudo pacman -S openbox alacritty tint2 rofi nitrogen scrot nemo nemo-fileroller eom mpv okular
 </details>
