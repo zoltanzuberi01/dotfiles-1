@@ -39,6 +39,6 @@
   <summary>Click for detail</summary>
   
 ```bash
- sudo pacman -S openbox alacritty tint2 rofi nitrogen scrot nemo nemo-fileroller eom mpv okular
+ sudo pacman -S openbox alacritty tint2 rofi picom nitrogen scrot nemo nemo-fileroller eom mpv okular
 ```
 </details>
