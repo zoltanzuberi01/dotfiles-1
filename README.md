@@ -37,7 +37,7 @@
 ### Dependencies
 <details>
   <summary>Click for detail</summary>
-  > **Other Dependencies**
+  
 ```bash
  sudo pacman -S openbox alacritty tint2 rofi nitrogen scrot nemo nemo-fileroller eom mpv okular
 ```
