@@ -11,6 +11,10 @@
 - Screenshoter: Scrot
 
 ### Keybinds
+
+<details>
+  <summary>Click for detail</summary>
+  
 | Key | Action |
 | --- | --- |
 | Super + z | Close window |
@@ -20,7 +24,7 @@
 | Super + v | Move window to center |
 | Super + Space | Show window menu |
 | Alt + Tab | Move to next window |
-| Super + (↑, →, ↓, ←) | Tile window half |
+| Super + (↑, →, ↓, ←) | Tile window 1/2 |
 | Super + Alt + (↑, →, ↓, ←) | Tile window 1/4 |
 | Super + w | Open terminal |
 | Super + d | Open rofi app launcher |
@@ -28,7 +32,5 @@
 | Super + Print | Open rofi screenshot menu |
 | Print | Scrot screenshot |
 | Shift + Print | Scrot screenshot select |
-
-## [Nord](https://github.com/Myagko/dotfiles/tree/main/Openbox/Nord)
-
-![screen1](https://github.com/Myagko/dotfiles/blob/main/preview/22e71924-c3fc-4ac5-9a3d-1a5ac7a69902.png)
+  
+</details>
