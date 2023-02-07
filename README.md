@@ -37,8 +37,15 @@
 ### Dependencies
 <details>
   <summary>Click for detail</summary>
-  
+
+It is assumed that you have already installed basic packages such as xorg, xinit etc.
+
 ```bash
- sudo pacman -S openbox alacritty tint2 rofi picom nitrogen scrot nemo nemo-fileroller eom mpv okular
+sudo pacman -S openbox alacritty tint2 rofi picom nitrogen scrot nemo nemo-fileroller eom mpv okular htop
 ```
+>**Optional**
+```bash
+pikaur -S cava cmatrix pipes
+```
+
 </details>
