@@ -20,14 +20,8 @@
 | Super + v | Move window to center |
 | Super + Space | Show window menu |
 | Alt + Tab | Move to next window |
-| Super + Up | Tile window to upper half |
-| Super + Down | Tile window to bottom half |
-| Super + Right | Tile window to half right |
-| Super + Left | Tile window to half left |
-| Super + Alt + Right | Tile window 1/4 to top right |
-| Super + Alt + Up | Tile window 1/4 to top left |
-| Super + Alt + Down | Tile window 1/4 to bottom right |
-| Super + Alt + left | Tile window 1/4 to bottom left |
+| Super + (↑, →, ↓, ←) | Tile window half |
+| Super + Alt + (↑, →, ↓, ←) | Tile window 1/4 |
 | Super + w | Open terminal |
 | Super + d | Open rofi app launcher |
 | Super + q | Open rofi powermenu |
