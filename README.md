@@ -1,4 +1,4 @@
-[preview](https://github.com/Myagko/dotfiles/blob/main/src/paledark-desktop.png)
+![preview](https://github.com/Myagko/dotfiles/blob/main/src/paledark-desktop.png)
 # [Openbox](https://github.com/Myagko/dotfiles/tree/main/Openbox)
 - Compositor: picom
 - Panel: tint2
