@@ -1,0 +1,11 @@
+#############
+# Autostart #
+#############
+
+nitrogen --restore &
+tint2 -c ~/.config/tint2/OpenBox-Paledark-tint2rc &
+picom &
+
+# xwinwrap -ni -fs -un -nf -b -ovr -- gifview -w WID [path/to/gif] -a &
+
+# xwinwrap -fs -fdt -ni -b -nf -un -ov -o 1.0 -debug -- mpv -wid WID --loop --no-audio [path/to/video]
