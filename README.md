@@ -5,8 +5,8 @@
 - App launcher: rofi
 - Terminal: alacritty
 - Gtk2/3 & cursors theme: custom
-- Icons: custom [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme) icons made with [papirus folder icon creator](https://github.com/Adapta-Projects/Papirus-Folder-Icon-Creator)
-- Fonts: [Iosevka](https://github.com/be5invis/Iosevka), [Feather](https://github.com/feathericons/feather#feather) (icons) & custom icon-font addon
+- Icons: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
+- Fonts: [Iosevka](https://github.com/be5invis/Iosevka), [Feather](https://github.com/feathericons/feather#feather)
 - Screenshoter: Scrot
 
 ### Keybinds
