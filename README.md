@@ -33,3 +33,7 @@
 | Shift + Print | Scrot screenshot select |
   
 </details>
+#
+![preview2](https://github.com/Myagko/dotfiles/blob/main/src/paledark-desktop1.png)
+#[BSPWM]
+
