@@ -1,5 +1,5 @@
 ![preview](https://github.com/Myagko/dotfiles/blob/main/src/paledark-desktop.png)
-# [Openbox](https://github.com/Myagko/dotfiles/tree/main/Openbox)
+# Openbox
 - Compositor: picom
 - Panel: tint2
 - App launcher: rofi
@@ -33,7 +33,7 @@
 | Shift + Print | Scrot screenshot select |
   
 </details>
-#
+# 
 ![preview2](https://github.com/Myagko/dotfiles/blob/main/src/paledark-desktop1.png)
-#[BSPWM]
+# BSPWM
 
