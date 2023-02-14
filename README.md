@@ -4,7 +4,7 @@
 ![preview1](https://github.com/Myagko/dotfiles/blob/main/src/paledark-desktop1.png)
 
 - Compositor: picom
-- Panel: tint2
+- Panel: tint2 & polybar
 - App launcher: rofi
 - Terminal: alacritty
 - Gtk2/3 & cursors theme: custom
@@ -12,7 +12,7 @@
 - Fonts: [Iosevka](https://github.com/be5invis/Iosevka), [Feather](https://github.com/feathericons/feather#feather)
 - Screenshoter: Scrot
 
-### Keybinds
+### Openbox keybinds 
 
 <details>
   <summary>Click for detail</summary>
