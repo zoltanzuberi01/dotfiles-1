@@ -39,7 +39,7 @@ background_color_hover = #6D8F8A 70
 
 # Panel
 panel_items = TEEEEECP
-panel_size = 100% 48
+panel_size = 100% 45
 panel_margin = 0 0
 panel_padding = 7 7 8
 panel_background_id = 1
@@ -92,7 +92,7 @@ task_text = 1
 task_icon = 0
 task_centered = 1
 urgent_nb_of_blink = 3
-task_maximum_size = 19
+task_maximum_size = 17
 task_padding = 2 5 2
 task_font = Sans 0
 task_tooltip = 1
@@ -142,7 +142,7 @@ button_uwheel_command =
 button_dwheel_command = 
 button_font = Material 14
 button_font_color = #171518 100
-button_padding = 8 0
+button_padding = 6 0
 button_background_id = 4
 button_centered = 1
 button_max_icon_size = 0
