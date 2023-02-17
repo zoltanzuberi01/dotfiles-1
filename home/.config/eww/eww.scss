@@ -1,0 +1,121 @@
+$background: #171518;
+$background-alt: #201D21;
+$foreground: #C8C3C7;
+$accent: #6D8F8A;
+$accent-red: #AF575B;
+$accent-green: #7D8A6B;
+$accent-blue: #6F87A0;
+$accent-yellow: #CCAE7A;
+$transpearent: rgba(0, 0, 0, 0);
+
+button {
+	background-color: $background-alt;
+	border: 0; }
+button:hover {
+	background-color: $accent;
+	border: 0; }
+scale trough {
+	min-height: 15px;
+	min-width: 30px;}
+scale slider {
+    min-height: 0px;
+    min-width: 0px;
+    background-color: $transpearent;
+    border: none;}
+
+.top-box {
+	background-color: $background;
+	margin: 20 20 0 20;}
+	.close-box {
+		margin: -12 -12 0 0;}
+		.close-button {
+			font-size: 15;
+			background-color: $accent-red;
+			color: $accent-red;
+			padding: 0 1 1 1;}
+		.close-button:hover {
+		color: $background;
+		background-color: $accent-red;}
+	.time {
+		font-size: 120; }	
+	.day {
+		font-size: 30; }
+	.weather {
+		font-size: 50;
+		margin: 30 0 0 0; }
+
+.center-box {
+	padding: 0;
+	margin: 20 20 -130 20; }	
+	.cpu {
+		background-color: $background-alt; }
+		.cpu-icon {
+			color:  $accent-red;
+			margin: 0 0 40 -40;
+			font-size: 20;}
+		.cpu-per {
+			margin: 0 0 -100 -125;
+			font-size: 50;}
+		.cpu-bar {
+			padding: 50 20 0 20;}
+			.cpu scale trough highlight {
+				background-color: $accent-red;}
+	.ram {
+		background-color: $background-alt; }
+		.ram-per {
+			margin: 0 0 -100 -125;
+			font-size: 50;}
+		.ram-icon {
+			color: $accent-blue;
+			margin: 0 0 40 -40;
+			font-size: 20;}
+		.ram-bar {
+			padding: 50 20 0 20;}
+			.ram scale trough highlight {
+				background-color: $accent-blue;}
+	.disk {
+		background-color: $background-alt;
+		margin: 0 0 90 0; }
+		.disk-icon {
+			font-size: 35;
+			color: $accent;
+			margin: 0 0 40 0;}
+		.disk-per {
+			margin: 0 20 0 0;
+			font-size: 50;}
+
+	.scale-box {
+		margin: -90 0 0 0; }
+		.vol {
+			padding: 10 0 50 0;
+			background-color: $background-alt; }
+			.vol scale trough highlight{
+				background-color: $accent-green;}
+			.vol-icon {
+				font-size: 30;
+				margin: 0 0 -240 0; }
+		.mic {
+			padding: 10 0 50 0;
+			background-color: $background-alt; }
+			.mic scale trough highlight{
+				background-color: $accent-yellow;}
+			.mic-icon {
+				font-size: 30;
+				margin: 0 0 -240 0; }
+
+.bottom-box {
+	margin: 15; }
+	.poweroff {
+		color: $accent-red;
+		font-size: 35;
+		padding: 62; }
+		.poweroff:hover {
+			color: $background;
+			background-color: $accent-red;}
+	.reboot {
+			font-size: 35;
+			padding: 62; }
+	.exit {
+			font-size: 35;
+			padding: 62; }
+

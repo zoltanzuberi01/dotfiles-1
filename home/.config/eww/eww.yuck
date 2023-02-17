@@ -1,0 +1,68 @@
+(defpoll TIME :interval "5s"
+	`date +'%H:%M'`)
+
+(defpoll DAY :interval "5m"
+	`date +'%A, %d %B'`)
+
+(defpoll WEATHER :interval "10m"
+	`~/.config/eww/scripts/weather`)
+
+(defpoll CPU-ICON :interval "1s"
+	`top -bn1 -d 1 | grep 'Cpu(s)' | awk '{printf "%.f%", $3}'`)
+(defpoll CPU :interval "1s"
+	`top -bn1 -d 1 | grep 'Cpu(s)' | awk '{printf "%.f", $3}'`)
+
+(defpoll RAM-ICON :interval "1s"
+	`free -m | awk 'NR==2{printf "%.f%",$3*100/$2 }'`)
+(defpoll RAM :interval "1s"
+	`free -m | awk 'NR==2{printf "%.f",$3*100/$2 }'`)
+
+(defpoll DISK :interval "10m"
+	`df --output=pcent -h "$PWD" | sed '1d;s/[^0-9]//'`)
+
+(defwidget main []
+	(box :orientation "v"		
+		(top)
+		(center)
+		(bottom)))
+
+(defwidget top []
+	(box :class "top-box" :orientation "v" :space-evenly false :valign "fill"
+		(box :class "close-box" :orientation "h" :halign "end" (button :class "close-button" :onclick "eww close main" ""))
+		(label :class "time" :text TIME)
+		(label :class "day" :text DAY)
+		(label :class "weather" :text WEATHER)))
+
+(defwidget center []
+	(box :class "center-box" :orientation "h" :valign "fill" :spacing "20"
+	
+		(box :orientation "v" :spacing "20"
+		
+			(box :class "cpu" :orientation "v" 
+				(box :class "cpu-label" :orientation "h" (label :class "cpu-icon" :text "CPU")(label :class "cpu-per" :text CPU-ICON))
+				(scale :class "cpu-bar" :orientation "h" :min 0 :max 100 :active false :value CPU))
+			(box :class "ram" :orientation "v"
+				(box  :class "ram-label" :orientation "h" (label :class "ram-icon" :text "RAM")(label :class "ram-per" :text RAM-ICON))
+				(scale :class "ram-bar" :orientation "h" :active false :value RAM)))
+				
+		(box :orientation "v" :spacing "20"
+		
+			(box :class "disk" :orientation "h" (label :class "disk-icon" :text "Disk")(label :class "disk-per" :text DISK))			
+			(box :class "scale-box" :orientation "h" :spacing "20"				
+				(box :class "vol" :orientation "v" :spacing "-200"
+					(scale :class "vol-scale" :orientation "v" :flipped true :min 0 :max 100 :value 50 )
+					(label :class "vol-icon" :text ""))
+				(box :class "mic" :orientation "v" :vexpand true :spacing "-200"
+					(scale :class "mic-scale" :orientation "v" :flipped true :min 0 :max 100 :value 50)
+					(label :class "mic-icon" :text ""))))))
+
+(defwidget bottom []
+	(box :class "bottom-box" :orientatin "h" :valign "end" :spacing "10"
+		(button :class "poweroff" :onclick "" "")
+		(button :class "reboot" :onclick "" "")
+		(button :class "exit" :onclick "" "")))
+
+(defwindow main
+	:monitor 0
+	:geometry (geometry :x "20px" :y "65px" :height "995px" :width "20%")
+	(main))
